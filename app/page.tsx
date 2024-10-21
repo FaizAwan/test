@@ -63,6 +63,11 @@ const Home = () => {
 
   return (
     <div className="row container">
+      <div className="col-md-12">
+
+        <h1>Soution of Question # 1</h1>
+
+      </div>
       <div className="col-md-6">
         <h1>Next.js using TypeScript</h1>
         <div style={{ padding: "0", maxWidth: "600px", margin: "0 auto" }}>
@@ -120,7 +125,7 @@ const Home = () => {
           {/* Section to display results from plain JavaScript */}
           <div id="jsResultSection" style={{ marginTop: "20px" }}>
             <h2>Results:</h2>
-            <ul id="jsResultList" className="list-group">
+            <ul id="jsResultSection" className="list-group">
               {/* Results will be inserted here */}
             </ul>
           </div>
